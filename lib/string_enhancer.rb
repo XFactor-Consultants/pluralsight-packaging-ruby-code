@@ -4,5 +4,7 @@ require_relative "string_enhancer/version"
 
 module StringEnhancer
   class Error < StandardError; end
-  # Your code goes here...
+  def self.hello_world 
+    'Hello, World!'
+  end 
 end
