@@ -8,9 +8,8 @@ Gem::Specification.new do |spec|
   spec.authors = ["Henchworm"]
   spec.email = ["agop5134@gmail.com"]
 
-  spec.summary = "TODO: Write a short summary, because RubyGems requires one."
-  spec.description = "TODO: Write a longer description or delete this line."
-  spec.homepage = "TODO: Put your gem's website or public repo URL here."
+  spec.summary = "The StringEnhancer gem extends the Ruby string class with additional methods for formatting, manipulation, and querying Strings."
+  spec.homepage = "https://github.com/XFactor-Consultants/pluralsight-packaging-ruby-code"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
 

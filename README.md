@@ -1,8 +1,7 @@
 # StringEnhancer
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/string_enhancer`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+The StringEnhancer gem extends the Ruby string class with additional methods for formatting, manipulation, and querying, making string handling
+in Ruby even more powwerful. 
 
 ## Installation
 
@@ -22,7 +21,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+After installing the StringEnhancer gem, you can use its methods on any String object. 
 
 ## Development
 
