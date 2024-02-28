@@ -7,4 +7,8 @@ module StringEnhancer
   def self.hello_world 
     'Hello, World!'
   end 
+
+  def self.word_count(string)
+    string.split.count
+  end 
 end
