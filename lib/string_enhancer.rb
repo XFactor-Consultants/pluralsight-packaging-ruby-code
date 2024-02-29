@@ -4,7 +4,13 @@ require_relative "string_enhancer/version"
 
 module StringEnhancer
   class Error < StandardError; end
-  def self.hello_world 
-    'Hello, World!'
+
+  def self.word_count(string)
+    string.split.count
+  end 
+
+  def self.palindrome?(string)
+    processed = string.downcase.gsub(/\W/, "")
+    processed == processed.reverse
   end 
 end
