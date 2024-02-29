@@ -19,5 +19,14 @@ RSpec.describe StringEnhancer do
         expect(StringEnhancer.word_count("")).to eq(0)
       end 
     end
+    context '#palindrome' do 
+      it 'returns true for palindrome string' do 
+        expect(StringEnhancer.palindrome?('madam')).to be(true)
+      end 
+
+      it 'returns false for non palindrome string' do 
+        expect(StringEnhancer.palindrome?('hello')).to be(false)
+      end 
+    end 
   end 
 end
