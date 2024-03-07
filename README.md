@@ -3,6 +3,12 @@
 The StringEnhancer gem extends the Ruby string class with additional methods for formatting, manipulation, and querying, making string handling
 in Ruby even more powwerful. 
 
+## Methods 
+
+- 'titleize': Capitalizes each word in a string to create a title-like format. 
+- 'word_count': Returns the number of words in a string. 
+- 'palindrome?: Checks whether the string is a palindrome, returning true or false. 
+
 ## Installation
 
 Add this line to your application's Gemfile:

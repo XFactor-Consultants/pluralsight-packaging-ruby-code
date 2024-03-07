@@ -28,5 +28,10 @@ RSpec.describe StringEnhancer do
         expect(StringEnhancer.palindrome?('hello')).to be(false)
       end 
     end 
-  end 
+    context 'titleize' do 
+      it 'capitializes each word in a string' do 
+        expect(StringEnhancer.titleize('hello world')).to eq('Hello World')
+      end 
+    end 
+  end
 end
