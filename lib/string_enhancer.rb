@@ -13,4 +13,8 @@ module StringEnhancer
     processed = string.downcase.gsub(/\W/, "")
     processed == processed.reverse
   end 
+
+  def self.titleize(string)
+    string.split.map(&:capitalize).join(' ')
+  end 
 end
